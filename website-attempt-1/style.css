@@ -1,0 +1,171 @@
+/* Universal Styles */
+
+html,
+  
+
+  body {
+    background-color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+  .main {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url("https://www.topflightdubia.com/assets/images/banner-pacman-frog.jpg");
+    background-image: no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+
+   .main h1 {
+    
+    font-family: 'Amatic SC', cursive;
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    color: white;
+    font-size: 5rem;
+  }
+
+nav {
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    padding: 1.75rem 1.25rem;
+
+}
+nav a {
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+ul {
+    display: flex;
+    
+    align-items: flex-start; 
+    justify-content: space-between;
+    width: 50%; /* play with this number to get spacings correct */
+}
+    
+
+
+ul li {
+ padding: 10px;
+ 
+
+
+}
+
+
+    
+
+
+
+
+
+
+.gallery{
+    margin: 4em auto;
+    
+
+}
+
+.gallery img {
+    display: block;
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+  
+  .image-container {
+    overflow: hidden;
+    
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+  }
+
+  #blog {
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 86%;
+  }
+  
+  #blog .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8;
+    color: #444444;
+    width: 52%;
+    margin-top: 12.5%;
+    margin-bottom: 7.5%;
+  }
+  
+  .description h2 {
+    font-size: 1.875rem;
+    
+    
+  }
+  
+  .description h3 {
+    font-size: 1.125rem;
+    color: #999999;
+  }
+  
+  .description .opening-line {
+    margin-top: 4.1875rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .description .image-container {
+    width: 100%;
+    
+  }
+  footer {
+    background-color: whitesmoke;
+    padding: 0 1rem;
+  }
+  footer .container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5em 0;
+      color: gray;
+
+  }
+  footer .copyright{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.125rem;
+  }
+    
+
+  
